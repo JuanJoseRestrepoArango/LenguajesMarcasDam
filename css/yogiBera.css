@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'fuenteChito';
+    src: url(/fuentes/slackey.woff2);
+}
+body{
+    background-image: url(/img/violeta.png);
+    margin-top: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: rgb(200, 200, 230);
+    font-family: 'fuenteChito';
+    color: rgb(106, 106, 177);
+    text-shadow: white  5px -5px 5px;
+    text-align: center;
+    margin: 0 35rem 0rem 35rem;
+}
+hr{
+    height: 5px;
+    background-image:  url(/img/violeta.png);
+    border: none;
+    margin: 0;
+}
+.principal{
+    background-color: rgb(200, 200, 230);
+    margin: 0rem 35rem 0 35rem;
+    padding-top: 0.5rem;
+    width: auto;
+    height: 123vh;
+
+}
+.info{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction:row ;
+    min-height: 150px;
+}
+.info p{
+  text-align: justify;
+  margin: 5px;
+}
+img{
+    width: 160px;
+    height: 160px;
+    border: solid 2px;
+    padding: 5px;
+    margin: 0.5rem;
+}
+
+.naranja{
+    position: relative;
+    left: 110px;
+    background-color: #f28226;
+    border: dashed white;
+    color: white;
+    width: 60%;
+    height: auto;
+    text-align: left;
+    padding: 5px;
+    font-size: 1.6rem
+
+}
+
+.verde{
+    position: relative;
+    left: 140px;
+    color: black;
+    background-image: url(/img/verde.png);
+    width: 60%;
+    height: auto;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.6rem
+}
+
+.rojo{
+    position: relative;
+    left: 170px;
+    width: 60%;
+    height: auto;
+    color: white;
+    background-color:#b45421;
+    border: solid white;
+    padding: 5px;
+    font-size: 1.6rem
+}
+.naranja::first-letter{
+    color: black;
+}
+

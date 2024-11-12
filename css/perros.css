@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "fuente";
+    src: url(/fuentes/sigmar_one.woff);
+}
+body{
+    background-color: aliceblue;
+    margin:0 2rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-family: "fuente";
+    font-size: 3rem;
+    color: black;
+    margin: 0;
+}
+
+hr{
+    height: 5px;
+    background-color: rgb(143, 143, 177);
+    border: solid black 1px;
+    border-radius: 1rem;
+    margin: 1.5rem 15%;
+}
+h2{
+    font-family: "fuente";
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color:  rgb(143, 143, 177);
+    font-size: 2.5rem;
+    text-shadow: black 2px 2px ;
+}
+.perro1{
+    display: flex;
+    flex-direction: row;
+    
+}
+.perro2{
+    display: flex;
+    flex-direction: row;
+    height: 25vh;
+    
+}
+.imagen1{
+    width: 10%;
+    height: auto;
+    border: solid  rgb(143, 143, 177) ;
+    padding: 0.2rem;
+}
+.perro1 p{
+    margin:0 0.5rem 0 0.5rem ;
+    text-align: justify ;
+}
+.imagen2{
+    width: 9%;
+    height: 20vh;
+    border: solid  rgb(143, 143, 177) ;
+    padding: 0.2rem;
+
+}
+.infop2{
+
+    font-family: "fuente";
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color:  rgb(143, 143, 177);
+    font-size: 2.5rem;
+    text-shadow: black 2px 2px ;
+}
+.imagen3{
+    width: 8%;
+    height: 20vh;
+    border: solid  rgb(143, 143, 177) ;
+    padding: 0.2rem;
+    margin: 0 10rem;
+}
+.perro2 p{
+    width: 35%;
+}
+address{
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+
+    font-style: normal;
+
+}

@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(82, 82, 133);
+    display: flex;
+    align-items: center;
+}
+#principal{
+    width: 720px; 
+    height: auto;
+    border: 10px inset white;
+    margin: auto auto; 
+    background-color: rgb(134, 227, 243);
+    border-radius: 1rem;
+
+}
+caption{
+    background-color: yellow;
+}
+.contenedor1{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.der{
+    width: 60%;
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px outset white;
+}
+.izq{
+    width: 280px;
+    margin: 0.5rem;
+    border: 5px outset white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+table{
+    
+    margin: auto ;
+}
+caption{
+    border: 3px solid red;
+}
+.contenedor{
+    margin: 2rem;
+}

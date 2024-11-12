@@ -1,0 +1,2 @@
+div { display: flex; flex-direction: column; margin-bottom: 5px; background-color: #eee; }
+p { width: 100px; border: black 1px solid; margin: 2px; }

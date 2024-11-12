@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>display: flex. Cajas flexibles. CSS. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco. www.mclibre.org</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilos.css">
+  <style>
+    #dentro{
+      width: 70%;
+      height: 100vh;
+      border: 1px solid black;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #fuera{
+      width: 50%;
+      height: 50%;
+      border: 1px solid yellow;
+      background-color: blue;
+      
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <p>Uno</p>
+    <p>Dos</p>
+    <p>Tres, con más texto que los otros elementos</p>
+    <p>Cuatro</p>
+  </div>
+
+  <div>
+    <p>Uno</p>
+    <p>Dos</p>
+    <p>Tres, con más texto que los otros elementos</p>
+    <p>Cuatro</p>
+  </div>
+
+  <div id="dentro">
+    <div id="fuera"></div>
+  </div>
+</body>
+</html>
