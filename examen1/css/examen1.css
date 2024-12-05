@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "fuente";
+    src: url(/examen1/font/special-elite.woff2);
+}
+body{
+    background-color: rgb(255, 155, 130);
+    font-family: monospace;
+}
+h1{
+    font-family: "fuente";
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 4rem 0 0;
+    font-size: 3rem;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+.links a {
+    text-decoration: none;
+    border: solid 5px orangered;
+    margin: 1rem;
+    padding: 0.2rem;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+}
+.principal img{
+    
+    margin: 0.5rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border: solid 5px orangered;
+    padding: 0.2rem;
+    background-color: white;
+}
+.info,.info1,.info2{
+    margin: 0.5rem 3rem 0.5rem 3rem;
+    border: solid 5px orangered;
+    text-align: justify;
+    justify-content: space-between;
+    
+}
+.info2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.info1{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    margin: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+h2{
+    background-color: orangered;
+    color: white;
+    margin: 0;
+    
+}
+.imtel{
+    width: 40%;
+    
+    display: flex;
+    align-items: flex-end;
+}
+#tele{
+    width: 100%;
+    height: 220px;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    
+    
+    
+}
+.filas{
+    display:flex;
+    flex-direction: row;
+    
+}
+address{
+    margin-left: 20%;
+    width: 78%;
+    border-top: solid 5px black;
+}
+address p{
+    margin: 0;
+    font-style: none;
+}
+.cara{
+    font-size: 5rem;
+    text-wrap: unset;
+}
+.nombre{
+    color: red;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.nacio{
+    color: white;
+}
+.azul,.wiki{
+    color: blue;
+}
+.verde{
+    color: green;
+    text-decoration: underline;
+}
+.wiki{
+    text-decoration: underline;
+}
