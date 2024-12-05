@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: max-content auto max-content;
+}
+main{
+    grid-template-columns: repeat(3,1fr);
+    display: grid;
+    background-color: red;
+}
+@media (max-width:600px) {
+    main{
+        grid-template-columns: 1fr;
+        background-color: blue;
+    }
+}
