@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor{
+    width: 40rem;
+    height: 20rem;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}

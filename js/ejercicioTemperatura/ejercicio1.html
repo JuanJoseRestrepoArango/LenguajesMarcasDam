@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../ejercicioTemperatura/css/ejercicio1.css">
+    <script src="../ejercicioTemperatura/js/script.js"></script>
+</head>
+<body >
+    <div class="contenedor">
+
+        <div class="campo">
+            <fieldset>
+                <legend>COnversion temperaturas</legend>
+            </fieldset>
+            <label for="">Grado Celsius</label>
+            <input type="number" name="" id="gc" onchange="cambiando(this,'gcs')">
+            <p>Operador 1
+                <input type="button" value="0"  onclick="cambiando(this,'gcs')">
+            </p>
+            <p>Operador 1
+                <input type="button" value="0"  onclick="cambiando(this,'gcs')">
+            </p>
+            <p>Operacion
+                <select id="gcs" onchange="cambiando(this,'gcs')">
+                </select>
+            </p>
+        </div>
+        <div class="campo">
+            <p class="texto">Grado Fare</p>
+            <div class="resultado">
+                <p class="cajon" id="resultado" data-value ="0">0</p>
+            </div>
+            <p>Operador 1
+                <input type="number" value="0" id="gfs1" onchange="actualizar(this)">
+            </p>
+            <p>Operador 1
+                <input type="number" value="0" id="gfs2" onchange="actualizar(this)">
+            </p>
+            <p>Operacion
+                <select id="gfs" onchange="actualizar(this)">
+
+                </select>
+            </p>
+        </div>
+        <div class="campo">
+            <p class="texto">Grado Kelvin</p>
+            <div class="resultado" >
+                <p class="cajon" id="resultado" data-value ="0">0</p>
+            </div>
+            <p>Operador 1
+                <input type="number" value="0" id="gks1" onchange="calcular()">
+            </p>
+            <p>Operador 1
+                <input type="number" value="0" id="gks2" onchange="calcular()">
+            </p>
+            <p>Operacion
+                <select id="gks" onchange="actualizar(this)">
+
+                </select>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

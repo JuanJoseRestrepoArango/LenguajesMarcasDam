@@ -8,7 +8,7 @@ window.onload = function(){
     // }
     // header.innerHTML = "<h1>2</h1>"
 
-    boton.addEventListener("click",function(){
+    boton.addEventListener("keydown",function(){
         header.innerHTML = "<h1>" + (parseInt(header.innerText)+1)+" "+ "</h1>" ;
     })
 }

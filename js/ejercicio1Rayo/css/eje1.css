@@ -1,0 +1,11 @@
+#marco{
+    width: 250px;
+    height: 300px;
+    margin: 2rem auto;
+    border: 5px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

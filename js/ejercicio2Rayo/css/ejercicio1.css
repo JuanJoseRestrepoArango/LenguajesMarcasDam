@@ -1,0 +1,52 @@
+.contenedor{
+    margin: auto;
+    border: 5px solid black;
+    width: 30rem;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: lightblue;
+    
+}
+.boton {
+    display: flex;
+    margin: 2rem;
+    width: 4rem;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    border-radius: 1rem;
+}
+.cajon {
+    display: flex;
+    gap: auto;
+    width: 100%;
+    height: 100%;
+    
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+.suma{
+    background-color: lightgreen;
+    &:hover{
+        background-color: green;
+    }
+}
+
+.resta{
+    background-color: rgb(206, 109, 109);
+    &:hover{
+        background-color: red;
+    }
+}
+.resultado{
+    background-color: white;
+}
