@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.clase1{
+    background-color: green;
+    color: #ffffff;
+
+}
+.clase2{
+    font-size: 5rem;
+    font-weight: bold;
+}
+p{
+    width: 40rem;
+    height: 8rem;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

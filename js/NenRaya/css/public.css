@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.seleccionado1{
+    background-color: green;
+}
+.seleccionado2{
+    background-color: red;
+}
+.tabla{
+    text-align: center;
+    margin: 2rem;
+}
+td,th{
+    width: 2rem;
+}
