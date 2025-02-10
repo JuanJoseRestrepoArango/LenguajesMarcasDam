@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+label,select{
+    width: 3rem;
+
+}
+
+.barras{
+    width: 20%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border: solid 5px blue;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+.color{
+    border: solid 5px black;
+    border-radius: 2rem;
+    width: auto;
+    height: 200px;
+}

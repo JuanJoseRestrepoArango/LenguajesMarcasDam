@@ -131,11 +131,13 @@
         destino.src = `../img/jg${turno}.png`
         
         seleccionarJug.classList.add('seleccionado');
-        cont+=1;
+        cont+=1; 
+        if(cont>numero){
 
-        if(revisarSoluciones(soluciones,numero,turno)){
-            alert(`El Jugador ${turno} es el ganador`);
-            location.reload();
+            if(revisarSoluciones(soluciones,numero,turno)){
+                alert(`El Jugador ${turno} es el ganador`);
+                location.reload();
+            }
         }
 
 
