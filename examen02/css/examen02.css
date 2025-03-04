@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo{
+    position: absolute;
+    top:1rem;
+    left: 15rem;
+    background-color: rgb(96, 167, 96);
+    border-radius: 2rem;
+    border: 1px greenyellow solid;
+}
+.calculo{
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem ;
+}
+.seccion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(117, 156, 117);
+    border-radius: 2rem;
+    width: 35rem;
+    margin-top: 2rem;
+}
+.selPrincipal{
+    margin-top: 2rem;
+}
+p{
+    margin:1rem;
+}
+.resultado{
+    display: flex;
+    flex-direction: column;
+    
+    
+}

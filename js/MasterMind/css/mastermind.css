@@ -1,0 +1,68 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.contenedor,.contenedorCampos{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    width: 14rem;
+    height: auto;
+    justify-content: center;
+    margin: 0.1rem;
+}
+
+.casilla{
+    background-color: burlywood;
+    border-radius: 50%;
+    width: 2.3rem;
+    height: 2.3rem;
+    margin: 1rem 0.5rem 1rem 0.5rem; 
+    text-align: center;
+    color: white; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+}
+.colores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.verde{
+    background-color: green;
+        
+}
+.azul{
+    background-color: blue;
+    
+}
+.cafe{
+    background-color: brown;
+    
+}
+.naranja{
+    background-color: orange;
+    
+}
+.amarillo{
+    background-color: yellow;
+    
+}
+.rojo{
+    background-color: red;
+    
+}
+
+svg{
+    width: 1.2rem;
+    height: 1.2rem;
+    padding-top: 0.2rem;
+}
+
