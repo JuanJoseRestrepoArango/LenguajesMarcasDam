@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.marco{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+table{
+    margin: 2rem;
+    width: 50rem;
+    height: 30rem;
+
+    border-spacing: 4px;
+}
+label,caption{
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.rojo{
+    background-color: red;
+}
+
+th{
+   padding: 10px;
+}

@@ -21,10 +21,11 @@ function cargarAños(){
         let a = document.createElement('OPTION');
         a.text = i.toString();
         a.value = i;
-        document.getElementById('año').appendChild(a);
+        document.getElementById('anno').appendChild(a);
         
     }
-    document.getElementById('año').selectedIndex = 10;
+    document.getElementById('anno').selectedIndex = 2;
+    
 }
 
 // seleccionar cuantos dias tiene ese mes en ese año
