@@ -1,8 +1,14 @@
 
 body{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.principal{
+    display: flex;
+    align-items: flex-start;
     flex-direction: column;
 }
 .tablero{
@@ -10,7 +16,8 @@ body{
     justify-content: center;
     align-items: flex-start;
     flex-direction: row;
-    margin: 1rem 0 1rem 0;
+    margin: 0.5rem 0 1rem 0;
+
     
 }
 .contenedor{
@@ -18,8 +25,9 @@ body{
     display: flex;
     flex-direction: row;
     height: auto;
+    width: 13.2rem;
     justify-content: center;
-  
+    border-radius: 0.5rem;
 
 }
 
@@ -35,8 +43,9 @@ body{
 .contenedorLinea{
     display: flex;
     flex-direction: row;
-     
+    border-radius: 2rem;
 }
+
 .casilla{
     background-color: burlywood;
     border-radius: 50%;
@@ -54,8 +63,7 @@ body{
     background-color: blanchedalmond;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    left: 785px;
+
     border: 4px solid burlywood;
 }
 .resultado{
@@ -102,6 +110,14 @@ body{
 }
 .rojo{
     background-color: red;
+    
+}
+.negro{
+    background-color: black;
+    
+}
+.blanco{
+    background-color: white;
     
 }
 
